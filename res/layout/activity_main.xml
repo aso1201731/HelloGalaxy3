@@ -29,7 +29,7 @@
                     android:text="@string/first_name" />
 
                 <EditText
-                    android:id="@+id/editText1"
+                    android:id="@+id/editFirst"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" >
 
@@ -50,7 +50,7 @@
                     android:text="@string/famiry_name" />
 
                 <EditText
-                    android:id="@+id/editText2"
+                    android:id="@+id/editFamiry"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10" />
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content" >
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/btnOK"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/button_ok" />
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content" >
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/txvMsg"
                 android:layout_gravity="fill_horizontal"
                 android:text="Large Text" />
 
